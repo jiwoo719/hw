@@ -67,6 +67,8 @@ body{
 
 .home-content{
      max-width: 600px;
+     position: relative;
+     z-index: 9;
 }
 
 .home-content h1{
