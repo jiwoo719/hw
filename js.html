@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo">여러분들이 너무 잘해서 좋아요:)</p>
+    <script>
+        /* const today = new Date();
+        // const weekDay = ["월", "화", "수", "목", "금", "토", "일"]
+        const day = now.getDay
+        const hour = today.getHours();
+        const min = today.getMinutes();
+        const sec = today.getSeconds(); */
+
+        /*if((hour === 10 && min >= 0) || (hour === 11) || (hour === 12 && min < 50)){
+            alert("지금은 공부하는 시간입니다.");
+        } else if (hour === 12 && min >= 50) {
+            alert("지금은 점심시간입니다."); 
+        } else {
+            alert("지금은 공부하는 시간입니다.");
+        }*/
+
+        /* if(day === 0){
+            alert("학원 끝나면 알바 갔다가 새벽 내내 숙제 하는 날");
+        } else if (day === 1){
+            alert("학원 끝나면 저녁 먹고 새벽 내내 숙제 하는 날");
+        } else if(day === 2){
+            alert("학원 끝나면 알바 갔다가 새벽 내내 숙제 하는 날");
+        } else if(day === 3){
+            alert("학원 끝나고 저녁 먹고 새벽 내내 숙제 하는 날");
+        } else if(day === 4){
+            alert("학원 끝나고 알바 갔다가 새벽 내내 숙제 하는 날");
+        } else if(day === 5){
+            alert("알바 갔다가 동호회 가서 춤 추고 새벽에 숙제");
+        } else{
+            alert("알바 갔다가 숙제")
+        }  */       
+
+
+        /* const score = Number(prompt("점수입력"));
+
+        if( score >= 90){
+            document.write("A 학점입니다!");
+        } else if( score >= 80){
+            document.write("B 학점입니다!");
+        } else if( score >= 70){
+            document.write("C 학점입니다!");
+        } else if( score >= 60){
+            document.write("D 학점입니다!");
+        } else{
+            document.write("F 학점입니다!");
+        } */
+        // 10~12시 50분 까지는 공부하는 시간
+        // 12시 50분 점심시간
+        // 나머지는 공부
+        
+        // hours === 10 && minutes >= 0 -> 10시0분~59분까지
+        // hours === 11 -> 11시 몇 분이든 다 공부하는 시간
+        // hours === 12 && minutes >= 50 -> 12시 49분까지 공부시간
+
+        /* const username = prompt("아이디를 입력하세요.");
+        const password = prompt("비밀번호를 입력하세요.");
+
+        if( username === "admin" && password === "1234"){
+            alert("로그인 성공!");
+        } else if( username === "admin"){
+            alert("비밀번호가 틀렸습니다!");
+        } else{
+            alert("아이디가 존재하지 않습니다!")
+        } */
+        
+        /* const age = Number(prompt("나이를 입력하시오."));
+        if( age >= 18){
+            alert("입장 가능합니다.");
+        } else if( age >= 13){
+            alert("보호자 동반이 필요합니다.");
+        } else{
+            alert("입장할 수 없습니다.");
+        } */
+
+        /* const num1 = Number(prompt("첫번째 숫자를 입력하시오."));
+        const num2 = Number(prompt("두번째 숫자를 입력하시오."));
+        const num3 = Number(prompt("세번째 숫자를 입력하시오."));
+
+
+        if(num1 > num2){
+            
+        } else if(num3 > num2){
+            document.write("최대 값은 :" + num1);
+        } */
+
+        /* const num1 = Number(prompt("첫 번째 숫자를 입력하세요:"));
+        const num2 = Number(prompt("두 번째 숫자를 입력하세요:"));
+        const num3 = Number(prompt("세 번째 숫자를 입력하세요:"));
+        let max = num1; // 처음에는 첫 번째 숫자가 가장 크다고 가정
+        if (num2 > max) {
+        max = num2; // num2가 더 크면 max를 num2로 변경
+        }
+        if (num3 > max) {
+        max = num3; // num3가 더 크면 max를 num3로 변경
+        }
+        alert("가장 큰 숫자는 " + max + " 입니다!");
+
+
+        const age = Number(prompt("나이를 입력하세요:"));
+        if (age <= 7 || age >= 65) {
+        alert("무료입니다!");
+        } else if (age >= 8 && age <= 18) {
+        alert("청소년 요금은 500원입니다!");
+        } else {
+        alert("성인 요금은 1000원입니다!");
+        }
+
+        const balance = Number(prompt("현재 잔액을 입력하세요:"));
+        const withdraw = Number(prompt("출금할 금액을 입력하세요:"));
+        if (withdraw > balance) {
+        alert("잔액이 부족합니다!");
+        } else {
+        alert("출금이 완료되었습니다! 남은 잔액: " + (balance - withdraw) + "원");
+        } */
+
+
+
+        /* const num = Number(prompt("숫자를 입력하시오"));
+
+        if( (num%2) === 0){
+            alert("짝수입니다");
+        } else{
+            alert("홀수입니다");
+        } */
+
+        /* const price = Number(prompt("구매 가격을 입력하시오"));
+        const quantity = Number(prompt("구매 수량을 입력하시오"));
+        let total = price * quantity;
+
+        if(quantity >= 10){
+            document.write(`총 금액 : ${total*0.9}원`);
+            // alert("총 금액은" + total*0.9 + "입니다.");
+        } else{
+            document.write(`총 금액 : ${total}원`);
+        }
+
+        let month = 7; // 예시 입력
+        let season;
+        if (month >= 3 && month <= 5) {
+        season = "봄";
+        }
+        if (month >= 6 && month <= 8) {
+        season = "여름";
+        }
+        if (month >= 9 && month <= 11) {
+        season = "가을";
+        }
+        if (month === 12 || month === 1 || month === 2) {
+        season = "겨울";
+        } */
+
+    </script>
+</body>
+</html>
